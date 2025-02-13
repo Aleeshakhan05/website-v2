@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Cafe Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    </head>
+    <body>
+ <section class="header">
+<nav>
+    <a href="index.html"><img src="pictures/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li a href="">HOME</a></li>
+            <li a href="">ABOUT</a></li>
+            <li a href="">MENU</a></li>
+            <li a href="">OWNERS</a></li>
+            <li a href="">CONTACTS</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+
+<div class="text-box">
+    <h1>Wakiki Koffee</h1>
+    <p>Bringing polynesian flavours to you.</p>
+<a href="" class="hero-btn">Visit to know more</a>
+</div>
+</section>
+
+<!--ABOUT-->
+<section class="about">
+    <h1>All about Wakiki Koffee</h1>
+    <p>habadabachibi</p>
+    <div class="row">
+        <div class="about-col">
+            <h3>Where was it founded</h3>
+            <p>Click for more info</p>
+        </div>
+        <div class="about-col">
+            <h3>Support Wakiki's journey</h3>
+            <p>Click for more info</p>
+        </div>
+        <div class="about-col">
+            <h3>Locations</h3>
+            <p>Click for more info</p>
+        </div>
+    </div>
+</section>
+
+<!--MENU-->
+<section class="menu">
+    <h1>What we offer</h1>
+    <p>clicl to learn more </p>
+    <div class="row">
+        <div class="menu-col">
+            <img src="pictures/menu.png">
+            <div class="layer">
+                <h3>Wakiki</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--OWNERS-->
+<section class="owners">
+    <h1>meet the owners</h1>
+    <p>Jessica and Bob</p>
+    <div class="row">
+        <div class="owners-col">
+            <img src="c:\Users\Aleesha Khan\Desktop\cafe website\pictures\barista.webp">
+            <h3>Bob</h3>
+            <p>Bob is a barista who quit his job in order to persue his dreams in bringing polynesian coffee to the world.</p>
+        </div>
+        <div class="owners-col">
+            <img src="c:\Users\Aleesha Khan\Desktop\cafe website\pictures\jessica.avif">
+            <h3>Jessica</h3>
+            <p>Jessica had been working as a barista for years, she is very talented within the industry and tha art. She wanted to share her talent</p>
+    </div>
+    <div class="owners-col">
+        <img src="c:\Users\Aleesha Khan\Desktop\cafe website\pictures\jessica.avif">
+        <h3>Jessica Walker and Bob Rob</h3>
+        <p>Jessica and Bob met at a holiday tour in Hawaii, they had the amazing idea to share the memories of their trip together and thus Wakiki koffee was born</p>
+    </div>
+</section>
+
+<!--CONTACTS-->
+<section class="cta">
+    <h1>Any queries</h1>
+    <a href="" class="hero-btn">CONTACT US!</a>
+</section>
+  
+
+<!--JavaScript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+     
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+
+</script>
+    </body>
+</html>
